@@ -1,0 +1,18 @@
+package com.Jdbc.Jdbc;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.SpringBoot.SpringBoot.DependecyTry;
+
+@SpringBootApplication
+public class JdbcApplication {
+	@Autowired
+	  DependecyTry dependecyTry ;
+	public static void main(String[] args) {
+//		SpringApplication.run(JdbcApplication.class, args);
+		System.out.print(dependecyTry.Hello());
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.SpringBoot.SpringBoot;
+
+public class DependecyTry {
+	
+	public   String Hello()
+	{
+		return "hello";
+	}
+	
+	
+}
